@@ -1,0 +1,334 @@
+/* ============== common css area start ============== */
+*{ 
+    font-family  : 'Work Sans', sans-serif;
+    margin   : 0;
+    padding  : 0;
+}
+
+.container {
+    width   : 1140px;
+    margin: 0 auto;
+ 
+}
+/* ============== common css area end ============== */
+
+/* ============== header css area start ============== */
+.navber-logo {
+    padding-top : 24px;
+}
+
+.navber-logo img {
+    width   : 100px;
+    height  : 100px;
+}
+.nav {
+    display : flex;
+    justify-content : space-around;
+    padding-bottom  : 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.navber-content ul {
+    display: flex;
+}
+
+.navber-content{
+    display : flex;
+    padding-top : 50px;
+    align-items : center;
+}
+
+.navber-content ul li {
+    list-style-type : none;
+    padding-right: 35px;
+}
+
+.navber-content ul li a {
+    font-weight : 500;
+    font-size   : 22px;
+    text-decoration : none;
+    color   : #fff;
+    transition: all linear .5s;
+}
+
+.navber-content ul li a:hover {
+    color   : #000;
+}
+
+.navber-btn {
+    margin-left : 20px;
+}
+
+.navber-btn button {
+    font-weight: 600;
+    font-size   : 22px;
+    padding : 15px 25px;
+    border  : 0;
+    border-radius   : 5px;
+    margin-right    : 12px;
+    background-color    : #fff;
+    color   : #000;
+    cursor  : pointer;
+    transition  : all linear .5s;
+    border: 2px solid #fff;
+}
+
+.navber-btn button:hover {
+    background-color    : transparent;
+    border  : 2px solid #fff;
+    color   : #fff;
+}
+/* ============== header css area end ============== */
+
+/* ============== banner css area start ============== */
+.banner-image {
+   background-image: url(../images/banner/banner3.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner-text {
+    padding-top: 215px;
+    padding-bottom: 215px;
+    text-align: right;
+    margin-right: 210px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76.25px;
+    color: #fff;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-btn button {
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+}
+/* ============== banner css area end ============== */
+
+/* ============== previous-year css area end ============== */
+#previous-year {
+    padding-top: 140px;
+}
+
+.previous-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-year-text {
+    margin-left: 70px;
+}
+
+.previous-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.92px;
+    color: #151414;
+}
+
+.previpus-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 90px 16px 0;
+}
+
+.previous-check-text i{
+   color: #16D887;
+   padding-bottom: 18px;
+}
+
+.previous-check-text span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+/* ============== previous-year css area end ============== */
+
+/* ============== plans css area start ============== */
+#plans {
+    padding: 130px 0;
+}
+
+.plans-heading h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.92px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-items-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plans-items {
+    text-align: center;
+}
+
+.plan-text h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding: 24px 0 16px 0;
+}
+
+.plan-text p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* ============== plans css area end ============== */
+
+/* ============== mindset css area start ============== */
+#mindset {
+    padding-bottom: 130px;
+}
+.mindset-area {
+    border-radius: 8px;
+    background-image:linear-gradient(to right, rgb(0, 95, 172),rgba(0, 95, 172, 0)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mindset-title {
+   padding-top: 60px;
+   padding-left: 64px;
+   padding-bottom: 24px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 46.92px;
+   color: #fff;
+}
+
+.mindset-btn {
+   margin-left: 64px;
+   margin-bottom: 60px;
+   padding:20px 35px;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+   background-color: #fff;
+   color: #005FAC;
+   border: none;
+   border-radius: 5px;
+}
+/* ============== mindset css area end ============== */
+
+/* ============== footer css area start ============== */
+#footer {
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-future h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-future p {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 0 24px 0;
+}
+
+.footer-future span{
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-Subscribe h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer-Subscribe input{
+    padding: 20px 160px 20px 20px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.footer-Subscribe input::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-btn button {
+    padding: 20px 36px 20px 36px;
+    background-color: #005FAC;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+/* ============== footer css area end ============== */
+
+/* ============== copyright css area start ============== */
+#copyright {
+    padding: 20px 0;
+    background-color: #737272;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+/* ============== copyright css area end ============== */
